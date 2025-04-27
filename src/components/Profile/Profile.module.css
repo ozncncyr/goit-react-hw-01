@@ -1,0 +1,93 @@
+.profile {
+    text-align: center;
+    width: 300px;
+    color: #2c2f31;
+    border: 2px solid rgb(179, 179, 179);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb, #a1c4fd);
+    background-size: 300% 300%;
+    transition: box-shadow 400ms ease;
+    animation: movingGradient 20s ease infinite;
+}
+
+@keyframes movingGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.profile:hover {
+    box-shadow: 8px 8px 16px #bebebe, -8px -8px 16px #ffffff;
+}
+
+.description {
+    padding: 20px;
+}
+
+.avatar {
+    width: 100px;
+    border-radius: 50%;
+    background-color: #313436;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.tag,
+.location {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+.stats {
+    display: flex;
+    gap: 2px;
+    justify-content: space-around;
+    background-color: #e9eef3;
+    padding: 0;
+    margin: 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top: 2px solid #d8d8d8;
+    list-style: none;
+    overflow: hidden;
+}
+
+.item {
+    padding: 10px;
+    outline: 1px solid #d8d8d8;
+    flex-basis: calc((100% - 4px) / 2);
+    transition: background-color 250ms ease;
+}
+
+.item:hover {
+    background-color: #f5dfd8;
+}
+
+.item:hover .label {
+    font-weight: bold;
+}
+
+.label {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: #6c757d;
+    transition: font-weight 250ms ease;
+}
+
+.quantity {
+    font-size: 16px;
+    font-weight: 700;
+}
