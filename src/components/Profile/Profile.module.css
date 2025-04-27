@@ -1,11 +1,12 @@
 .profile {
     text-align: center;
-    width: 300px;
-    color: #2c2f31;
-    border: 2px solid rgb(179, 179, 179);
+    width: 440px;
+    color: white;
+    border: 3px solid white;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb, #a1c4fd);
+    box-shadow: 0 px 4px rgba(0, 0, 0, 0.1);
+    background: #020024;
+        background: linear-gradient(135deg, rgba(2, 0, 36, 1) 10%, rgba(9, 9, 121, 1) 63%, rgba(0, 212, 255, 1) 99%);
     background-size: 300% 300%;
     transition: box-shadow 400ms ease;
     animation: movingGradient 20s ease infinite;
@@ -26,7 +27,7 @@
 }
 
 .profile:hover {
-    box-shadow: 8px 8px 16px #bebebe, -8px -8px 16px #ffffff;
+    box-shadow: 0 0 10px 5px gold;
 }
 
 .description {
@@ -47,19 +48,20 @@
 .tag,
 .location {
     font-size: 16px;
-    color: #6c757d;
+    color: gold;
+    font-weight: 600;
 }
 
 .stats {
     display: flex;
     gap: 2px;
     justify-content: space-around;
-    background-color: #e9eef3;
+    background-color: #242424;
     padding: 0;
     margin: 0;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
-    border-top: 2px solid #d8d8d8;
+    border-top: 3px solid #d8d8d8;
     list-style: none;
     overflow: hidden;
 }
@@ -68,11 +70,11 @@
     padding: 10px;
     outline: 1px solid #d8d8d8;
     flex-basis: calc((100% - 4px) / 2);
-    transition: background-color 250ms ease;
+    transition: all 250ms ease;
 }
 
 .item:hover {
-    background-color: #f5dfd8;
+    background-color: blue;
 }
 
 .item:hover .label {
@@ -83,7 +85,7 @@
     display: flex;
     justify-content: center;
     font-size: 14px;
-    color: #6c757d;
+    color: gold;
     transition: font-weight 250ms ease;
 }
 

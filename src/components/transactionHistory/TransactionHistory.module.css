@@ -5,15 +5,15 @@
 
 .transactionTable th,
 .transactionTable td {
-    border: 1px solid #ddd;
+    border: 2px solid #ddd;
     padding: 5px;
     text-align: center;
-    color: black;
+    color: white;
 }
 
 .transactionTable th {
-    color: black;
-    background-color: #eeeadd;
+    color: orange;
+    background-color: gray;
 }
 
 table {
@@ -26,7 +26,7 @@ th,
 td {
     padding: 10px;
     text-align: left;
-    border: 1px solid #ddd;
+    border: 2px solid #ddd;
 }
 
 th {
@@ -35,15 +35,15 @@ th {
 }
 
 tr:nth-child(odd) {
-    background-color: #fff;
+    background-color: #3f3e3e;
     transition: background-color 250ms ease;
 }
 
 tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: #242323;
     transition: background-color 250ms ease;
 }
 
 tr:hover {
-    background-color: rgb(122, 183, 233);
+    background-color: orange;
 }

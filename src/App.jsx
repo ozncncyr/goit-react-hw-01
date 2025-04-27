@@ -4,11 +4,9 @@ import userData from "./data/userData.json";
 import friends from "./data/friends.json";
 import React from "react";
 import transactions from "./data/transactions.json";
-import TransactionHistory from "./components/TransactionHistory";
+import TransactionHistory from "./components/transactionHistory/TransactionHistory";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <Profile
