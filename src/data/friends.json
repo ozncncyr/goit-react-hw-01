@@ -3,30 +3,35 @@
     "avatar": "https://avatars.githubusercontent.com/u/183132455?v=4",
     "name": "Yeşim",
     "isOnline": true,
-    "id": 1812
+    "id": 1812,
+    "url": "https://github.com/yesimbozkurt"
   },
   {
     "avatar": "https://avatars.githubusercontent.com/u/46069077?v=4",
     "name": "Mürsel",
     "isOnline": false,
-    "id": 1137
+    "id": 1137,
+    "url": "https://github.com/murselsen"
   },
   {
     "avatar": "https://avatars.githubusercontent.com/u/185216919?v=4",
     "name": "Dilara",
     "isOnline": true,
-    "id": 1213
+    "id": 1213,
+    "url": "https://github.com/Dilaraydmr"
   },
   {
     "avatar": "https://i.imgur.com/r3tHleF.png",
     "name": "CodeNest",
     "isOnline": true,
-    "id": 1714
+    "id": 1714,
+    "url": "https://discord.gg/TTRsgc8t5G"
   },
   {
-    "avatar": "https://instagram.fsaw1-15.fna.fbcdn.net/v/t51.2885-19/442679770_1638332956926244_3842595404493275755_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=instagram.fsaw1-15.fna.fbcdn.net&_nc_cat=104&_nc_oc=Q6cZ2QGBT2GOXrbWRuTLS7hVdNsxMN92FEy5LPI0fzMfEvXQx-CZ3jsEOn2iT_t42YjfJ4E&_nc_ohc=mMuxJpjk-l8Q7kNvwGyvOTB&_nc_gid=IkGjT0gMnXHkSFGrIzj01w&edm=AEYEu-QBAAAA&ccb=7-5&oh=00_AfGW5a_YaEAB9XHsFdOPJBkwxCCeZI-PppGx2H8ZpK_GPQ&oe=68140792&_nc_sid=ead929",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Azerbaijan.svg",
     "name": "Negin",
     "isOnline": false,
-    "id": 1284
+    "id": 1284,
+    "url": "https://github.com/Neginkrml"
   }
 ]

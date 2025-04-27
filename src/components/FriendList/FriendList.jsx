@@ -6,7 +6,13 @@ const FriendList = ({ friends }) => {
   return (
     <ul className={styles.friendList}>
       {friends.map((friend) => (
-        <li key={friend.id}>
+        <li key={friend.id} onClick={() => window.open(friend.url, "_blank")}>
+          <a
+            href={friend.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: "none", color: "inherit" }}
+          ></a>
           <FriendListItem
             avatar={friend.avatar}
             name={friend.name}
