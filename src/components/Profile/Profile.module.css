@@ -10,6 +10,7 @@
     background-size: 300% 300%;
     transition: box-shadow 400ms ease;
     animation: movingGradient 20s ease infinite;
+    cursor: pointer;
 }
 
 @keyframes movingGradient {
